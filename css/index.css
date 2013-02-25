@@ -4,13 +4,43 @@ a{
 }
 
 p{
-	font: bold 14em/.8em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
+
+section{
+	margin-top: 20em;
+	margin-bottom: 15em;
+}
+
+.pimage{
+	width:  107%;
+}
+
 #hello{
-	font-size:10em;
-	
+	font-size: 9.7em;
+	line-height: 1em;
+	font-weight: bold;
 }
 
 #top_space{
 	height: 20%;
+}
+
+#nav{
+	position: fixed;
+	top: 40%;
+
+}
+
+#nav ul li{
+	padding: 10px;
+}
+
+#portfolio ul li{
+	display: inline-block;
+}
+
+.resume p{
+	font-size: 1em;
+	line-height: 1.5em;
 }
